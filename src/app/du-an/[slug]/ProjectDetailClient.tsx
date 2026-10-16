@@ -63,7 +63,7 @@ export const ProjectDetailClient: React.FC<Props> = ({ project, nextProject }) =
 
           <Link
             href={`/#contact`}
-            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-blue-600 text-white text-xs font-semibold hover:bg-blue-700 transition-colors shadow-xs"
           >
             <span>Trao đổi về dự án tương tự</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -390,7 +390,7 @@ export const ProjectDetailClient: React.FC<Props> = ({ project, nextProject }) =
 
             <Link
               href={`/du-an/${nextProject.slug}`}
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs shrink-0 transition-colors"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shrink-0 transition-colors shadow-xs"
             >
               <span>Xem dự án này</span>
               <ArrowRight className="w-4 h-4" />

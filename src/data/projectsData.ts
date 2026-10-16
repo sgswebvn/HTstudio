@@ -311,10 +311,10 @@ export const projectsData: Project[] = [
       'Gia chủ đang làm nhà cần tìm xưởng gỗ trực tiếp, kiến trúc sư cần xưởng gia công uy tín không qua trung gian.',
     keyHighlight:
       'Trực quan hóa năng lực xưởng mộc, bảng tra cứu mẫu gỗ (Gõ đỏ, Óc chó, Sồi, MDF An Cường), form gửi bản vẽ.',
-    coverImage: '/projects/woodwork-cover.svg',
+    coverImage: '/projects/banner-interior-wood.svg',
     gallery: [
       {
-        url: '/projects/woodwork-cover.svg',
+        url: '/projects/banner-interior-wood.svg',
         caption: 'Giao diện trang chủ với gam màu gỗ ấm cúng và các chứng nhận chất lượng gỗ',
         isCover: true,
       },
@@ -410,10 +410,10 @@ export const projectsData: Project[] = [
       'Người tiêu dùng quan tâm thực phẩm sạch, shop bán lẻ cần kênh đặt hàng nhanh và tiện lợi.',
     keyHighlight:
       'Đặt hàng nhanh không cần mật khẩu rườm rà, giao diện tươi sáng tạo cảm giác an tâm, tải nhanh dưới 1.5 giây.',
-    coverImage: '/projects/landing-cover.svg',
+    coverImage: '/projects/banner-organic-food.svg',
     gallery: [
       {
-        url: '/projects/landing-cover.svg',
+        url: '/projects/banner-organic-food.svg',
         caption: 'Giao diện trang chủ hiển thị giỏ hàng nhanh và các chương trình khuyến mãi trong ngày',
         isCover: true,
       },
@@ -497,10 +497,10 @@ export const projectsData: Project[] = [
       'Đối tác dự án, khách hàng doanh nghiệp và các quỹ đầu tư tìm hiểu về quy mô công ty.',
     keyHighlight:
       'Bố cục chuyên nghiệp chuẩn phong cách quốc tế, tải trang siêu tốc, bảo mật cao.',
-    coverImage: '/projects/business-cover.svg',
+    coverImage: '/projects/banner-green-energy.svg',
     gallery: [
       {
-        url: '/projects/business-cover.svg',
+        url: '/projects/banner-green-energy.svg',
         caption: 'Giao diện trang chủ doanh nghiệp với khối năng lực và số liệu ấn tượng',
         isCover: true,
       },
@@ -588,10 +588,10 @@ export const projectsData: Project[] = [
       'Độc giả yêu thích phim ảnh, âm nhạc và tin tức giải trí; nhà sáng tạo nội dung cần lượng truy cập tự nhiên lớn.',
     keyHighlight:
       'Tối ưu tuyệt đối không giật layout (Zero CLS) khi tải quảng cáo, đầy đủ 5 trang pháp lý quốc tế.',
-    coverImage: '/projects/pulse-cover.svg',
+    coverImage: '/projects/banner-news.svg',
     gallery: [
       {
-        url: '/projects/pulse-cover.svg',
+        url: '/projects/banner-news.svg',
         caption: 'Giao diện trang chủ dạng tạp chí số với tiêu điểm nổi bật và danh mục tin nóng',
         isCover: true,
       },

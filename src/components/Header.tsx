@@ -117,7 +117,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenConsultation }) => {
                     onOpenConsultation();
                   }
                 }}
-                className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-slate-900 text-white hover:bg-slate-800 active:scale-95 transition-all shadow-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700 active:scale-95 transition-all shadow-sm hover:shadow-md"
               >
                 <MessageCircle className="w-3.5 h-3.5" />
                 <span>Trao đổi với tôi</span>
@@ -208,7 +208,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenConsultation }) => {
                 handleNavClick('#contact');
               }
             }}
-            className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-slate-900 text-white font-semibold text-xs text-center shadow-sm active:scale-95 transition-all"
+            className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs text-center shadow-sm active:scale-95 transition-all"
           >
             <span>Trao đổi nhu cầu</span>
             <ArrowUpRight className="w-4 h-4" />

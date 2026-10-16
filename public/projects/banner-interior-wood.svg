@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="woodBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f5efe6"/>
+    </linearGradient>
+    <linearGradient id="warmWoodBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="woodShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#451a03" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="1200" height="675" fill="url(#woodBg)"/>
+  <circle cx="1080" cy="140" r="260" fill="#d97706" opacity="0.08" filter="blur(60px)"/>
+  <circle cx="120" cy="520" r="240" fill="#2563eb" opacity="0.06" filter="blur(50px)"/>
+
+  <!-- Desktop Monitor Frame -->
+  <g filter="url(#woodShadow)">
+    <rect x="70" y="45" width="1060" height="585" rx="16" fill="#1c1917"/>
+    <rect x="76" y="51" width="1048" height="573" rx="12" fill="#ffffff"/>
+
+    <!-- Browser Tab Bar -->
+    <rect x="76" y="51" width="1048" height="42" rx="12" fill="#fafaf9"/>
+    <circle cx="102" cy="72" r="5.5" fill="#ef4444"/>
+    <circle cx="120" cy="72" r="5.5" fill="#f59e0b"/>
+    <circle cx="138" cy="72" r="5.5" fill="#10b981"/>
+
+    <!-- URL Bar -->
+    <rect x="180" y="60" width="480" height="24" rx="6" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+    <text x="200" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="11" fill="#57534e">https://mocgiaphat.com.vn — Xưởng Mộc &amp; Nội Thất May Đo Trực Tiếp</text>
+
+    <!-- WEBSITE UI INSIDE -->
+    <!-- Navigation -->
+    <rect x="76" y="93" width="1048" height="60" fill="#ffffff" stroke="#f5f5f4" stroke-width="1"/>
+    <text x="105" y="130" font-family="'Georgia', serif" font-size="22" font-weight="bold" fill="#78350f">MỘC GIA PHÁT <tspan font-size="12" font-family="sans-serif" font-weight="normal" fill="#a16207">| XƯỞNG CHẾ TÁC 1.500M2</tspan></text>
+    
+    <text x="560" y="128" font-family="sans-serif" font-size="12" font-weight="600" fill="#1c1917">TRANG CHỦ</text>
+    <text x="650" y="128" font-family="sans-serif" font-size="12" font-weight="600" fill="#78716c">SẢN PHẨM GỖ</text>
+    <text x="760" y="128" font-family="sans-serif" font-size="12" font-weight="600" fill="#78716c">CÔNG TRÌNH THỰC TẾ</text>
+
+    <rect x="930" y="107" width="165" height="34" rx="8" fill="url(#warmWoodBtn)"/>
+    <text x="955" y="128" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">NHẬN BÁO GIÁ MỘC</text>
+
+    <!-- Main Content Inside Web -->
+    <g transform="translate(105, 175)">
+      <!-- Left Hero Banner -->
+      <rect x="0" y="0" width="610" height="420" rx="12" fill="#fffbeb" stroke="#fef3c7" stroke-width="1"/>
+      
+      <!-- Simulated Photograph of Luxury Wooden Furniture Living Room -->
+      <rect x="20" y="20" width="570" height="220" rx="8" fill="#d6c7b2"/>
+      <!-- Furniture rendering elements -->
+      <rect x="50" y="90" width="220" height="90" rx="4" fill="#854d0e"/>
+      <rect x="60" y="80" width="200" height="15" rx="2" fill="#582f0e"/>
+      <rect x="300" y="60" width="230" height="130" rx="6" fill="#a2673d"/>
+      <rect x="320" y="80" width="90" height="90" rx="4" fill="#784421"/>
+      <rect x="420" y="80" width="90" height="90" rx="4" fill="#784421"/>
+
+      <rect x="35" y="35" width="140" height="24" rx="4" fill="#ffffff" opacity="0.9"/>
+      <text x="45" y="51" font-family="sans-serif" font-size="11" font-weight="bold" fill="#92400e">GỖ TỰ NHIÊN 100%</text>
+
+      <text x="25" y="275" font-family="'Georgia', serif" font-size="22" font-weight="bold" fill="#451a03">Nội Thất Gỗ Gõ Đỏ, Óc Chó &amp; Sồi May Đo Chuẩn Từng Milimet</text>
+      <text x="25" y="305" font-family="sans-serif" font-size="12" fill="#78350f">
+        Sản xuất trực tiếp tại xưởng không qua trung gian. Cam kết đúng chủng loại gỗ, bảo hành kết cấu 10 năm.
+      </text>
+
+      <!-- Material Pills -->
+      <rect x="25" y="330" width="110" height="26" rx="6" fill="#ffffff" stroke="#fed7aa" stroke-width="1"/>
+      <text x="40" y="347" font-family="sans-serif" font-size="11" font-weight="600" fill="#9a3412">Gỗ Óc Chó Bắc Mỹ</text>
+
+      <rect x="145" y="330" width="105" height="26" rx="6" fill="#ffffff" stroke="#fed7aa" stroke-width="1"/>
+      <text x="160" y="347" font-family="sans-serif" font-size="11" font-weight="600" fill="#9a3412">Gõ Đỏ Pachy</text>
+
+      <rect x="260" y="330" width="110" height="26" rx="6" fill="#ffffff" stroke="#fed7aa" stroke-width="1"/>
+      <text x="275" y="347" font-family="sans-serif" font-size="11" font-weight="600" fill="#9a3412">Sồi Trắng Nga</text>
+
+      <rect x="25" y="370" width="180" height="34" rx="8" fill="#2563eb"/>
+      <text x="45" y="392" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">XEM MẪU TỦ BẾP &amp; BÀN ĂN</text>
+
+      <!-- Right Column: Workshop Capacity & Quote Form -->
+      <g transform="translate(635, 0)">
+        <!-- Workshop Facility Box -->
+        <rect x="0" y="0" width="355" height="180" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+        <text x="20" y="30" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1c1917">Dàn Máy Chế Tác CNC Hiện Đại</text>
+        <rect x="20" y="45" width="315" height="95" rx="6" fill="#f5f5f4"/>
+        <text x="65" y="100" font-family="sans-serif" font-size="11" fill="#78716c">Xưởng cưa mộng 4 mặt &amp; phòng sơn sấy PU</text>
+        <text x="20" y="160" font-family="sans-serif" font-size="11" font-weight="bold" fill="#15803d">✓ Đã hoàn thiện hơn 350+ căn hộ &amp; biệt thự</text>
+
+        <!-- Fast Quote Card -->
+        <g transform="translate(0, 195)">
+          <rect x="0" y="0" width="355" height="225" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1"/>
+          <text x="20" y="32" font-family="sans-serif" font-size="13" font-weight="bold" fill="#78350f">Gửi Kích Thước Nhận Dự Toán</text>
+          
+          <rect x="20" y="50" width="315" height="34" rx="6" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1"/>
+          <text x="32" y="72" font-family="sans-serif" font-size="11" fill="#a8a29e">Họ tên &amp; Số điện thoại của bạn...</text>
+
+          <rect x="20" y="95" width="315" height="34" rx="6" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1"/>
+          <text x="32" y="117" font-family="sans-serif" font-size="11" fill="#a8a29e">Loại đồ gỗ cần đóng (Tủ, giường, bàn ghế...)</text>
+
+          <rect x="20" y="145" width="315" height="42" rx="8" fill="#2563eb"/>
+          <text x="80" y="171" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">GỬI YÊU CẦU CHO XƯỞNG</text>
+          
+          <text x="20" y="210" font-family="sans-serif" font-size="10" fill="#78716c">Kỹ thuật viên xưởng liên hệ phản hồi trong 2 giờ</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

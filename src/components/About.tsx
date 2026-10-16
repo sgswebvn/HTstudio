@@ -52,7 +52,7 @@ export const About: React.FC = () => {
 
           <a
             href="#contact"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs whitespace-nowrap"
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs whitespace-nowrap shadow-sm hover:shadow-md transition-all active:scale-95"
           >
             <span>Bắt đầu trao đổi</span>
           </a>

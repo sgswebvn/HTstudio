@@ -401,13 +401,13 @@ export const Contact: React.FC<ContactProps> = ({ prefilledService, onShowToast 
                   id="form-submit-btn"
                   type="submit"
                   disabled={loading}
-                  className="w-full py-3 px-6 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs flex items-center justify-center gap-2 transition-all shadow-sm disabled:opacity-50"
+                  className="w-full py-3.5 px-6 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-md hover:shadow-lg active:scale-95 disabled:opacity-50"
                 >
                   {loading ? (
                     <span>Đang gửi thông tin...</span>
                   ) : (
                     <>
-                      <Send className="w-3.5 h-3.5" />
+                      <Send className="w-4 h-4" />
                       <span>Gửi yêu cầu nhận tư vấn &amp; Báo giá</span>
                     </>
                   )}

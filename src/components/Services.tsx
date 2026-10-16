@@ -72,7 +72,7 @@ export const Services: React.FC<ServicesProps> = ({ onSelectService }) => {
                       onSelectService(service.title);
                     }
                   }}
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-900 hover:text-slate-700 group"
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 group"
                 >
                   <span>Trao đổi về dịch vụ này</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
