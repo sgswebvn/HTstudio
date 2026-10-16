@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#090d16"/>
+  <text x="80" y="70" font-family="sans-serif" font-size="26" font-weight="bold" fill="#f43f5e">BlogWeb CMS — Kiến Trúc Bảo Mật &amp; Test Automation</text>
+  <text x="80" y="100" font-family="sans-serif" font-size="15" fill="#94a3b8">Bảo vệ tài nguyên, chống dò mật khẩu và đảm bảo tính toàn vẹn hệ thống 100%</text>
+
+  <g transform="translate(80, 140)">
+    <!-- Security Layer 1: scrypt -->
+    <rect x="0" y="0" width="320" height="220" rx="8" fill="#1e293b" stroke="#f43f5e" stroke-width="2"/>
+    <text x="24" y="45" font-family="sans-serif" font-size="17" font-weight="bold" fill="#f43f5e">1. scrypt + Salt 16 bytes</text>
+    <text x="24" y="80" font-family="sans-serif" font-size="13" fill="#cbd5e1">Thuật toán băm mật khẩu chuẩn phòng thủ cao cấp:</text>
+    <text x="24" y="110" font-family="monospace" font-size="12" fill="#fda4af">• N=16384, r=8, p=1</text>
+    <text x="24" y="135" font-family="monospace" font-size="12" fill="#fda4af">• Kháng GPU / ASIC brute-force</text>
+    <text x="24" y="160" font-family="sans-serif" font-size="13" fill="#cbd5e1">• Salt 16 bytes ngẫu nhiên độc lập</text>
+    <text x="24" y="190" font-family="sans-serif" font-size="12" fill="#10b981">✓ Đã kiểm thử rò rỉ mã hóa</text>
+
+    <!-- Security Layer 2: timingSafeEqual -->
+    <rect x="360" y="0" width="320" height="220" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+    <text x="384" y="45" font-family="sans-serif" font-size="17" font-weight="bold" fill="#f59e0b">2. timingSafeEqual</text>
+    <text x="384" y="80" font-family="sans-serif" font-size="13" fill="#cbd5e1">Cơ chế so sánh hằng số thời gian:</text>
+    <text x="384" y="110" font-family="monospace" font-size="12" fill="#fde68a">• Triệt tiêu Time-Attack</text>
+    <text x="384" y="135" font-family="monospace" font-size="12" fill="#fde68a">• Thời gian so sánh không phụ thuộc</text>
+    <text x="384" y="160" font-family="sans-serif" font-size="13" fill="#cbd5e1">vào số ký tự đúng/sai</text>
+    <text x="384" y="190" font-family="sans-serif" font-size="12" fill="#10b981">✓ Bảo vệ tài khoản Admin tuyệt đối</text>
+
+    <!-- Security Layer 3: Rate Limiting & RBAC -->
+    <rect x="720" y="0" width="320" height="220" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <text x="744" y="45" font-family="sans-serif" font-size="17" font-weight="bold" fill="#38bdf8">3. RBAC &amp; Rate Limit</text>
+    <text x="744" y="80" font-family="sans-serif" font-size="13" fill="#cbd5e1">Phân quyền và chống dồn dập request:</text>
+    <text x="744" y="110" font-family="monospace" font-size="12" fill="#bae6fd">• express-rate-limit đăng nhập</text>
+    <text x="744" y="135" font-family="monospace" font-size="12" fill="#bae6fd">• Quyền Admin vs Editor</text>
+    <text x="744" y="160" font-family="sans-serif" font-size="13" fill="#cbd5e1">• Khóa toàn vẹn: cấm xóa danh mục đang có bài viết</text>
+  </g>
+
+  <!-- Automated Test Suites Banner -->
+  <g transform="translate(80, 390)">
+    <rect x="0" y="0" width="1040" height="200" rx="10" fill="#111827" stroke="#374151" stroke-width="1"/>
+    <text x="30" y="40" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f8fafc">Kết quả chạy bộ kiểm thử tự động toàn diện (Automated Test Suites):</text>
+
+    <g transform="translate(30, 65)">
+      <rect x="0" y="0" width="220" height="95" rx="6" fill="#1e293b"/>
+      <text x="16" y="30" font-family="monospace" font-size="12" fill="#38bdf8">test-integrity-suite</text>
+      <text x="16" y="65" font-family="sans-serif" font-size="22" font-weight="bold" fill="#10b981">PASSED (100%)</text>
+      <text x="16" y="85" font-family="sans-serif" font-size="11" fill="#94a3b8">Bảo toàn dữ liệu MongoDB</text>
+
+      <rect x="250" y="0" width="220" height="95" rx="6" fill="#1e293b"/>
+      <text x="16" y="30" font-family="monospace" font-size="12" fill="#38bdf8">test-editor-paste</text>
+      <text x="16" y="65" font-family="sans-serif" font-size="22" font-weight="bold" fill="#10b981">PASSED (100%)</text>
+      <text x="16" y="85" font-family="sans-serif" font-size="11" fill="#94a3b8">Xử lý clipboard &amp; paste clean</text>
+
+      <rect x="500" y="0" width="220" height="95" rx="6" fill="#1e293b"/>
+      <text x="16" y="30" font-family="monospace" font-size="12" fill="#38bdf8">test-media-block</text>
+      <text x="16" y="65" font-family="sans-serif" font-size="22" font-weight="bold" fill="#10b981">PASSED (100%)</text>
+      <text x="16" y="85" font-family="sans-serif" font-size="11" fill="#94a3b8">Audit upload Supabase bucket</text>
+
+      <rect x="750" y="0" width="230" height="95" rx="6" fill="#1e293b"/>
+      <text x="16" y="30" font-family="monospace" font-size="12" fill="#38bdf8">test-admin-suite</text>
+      <text x="16" y="65" font-family="sans-serif" font-size="22" font-weight="bold" fill="#10b981">PASSED (100%)</text>
+      <text x="16" y="85" font-family="sans-serif" font-size="11" fill="#94a3b8">Quản lý nhân sự &amp; quyền hạn</text>
+    </g>
+  </g>
+</svg>

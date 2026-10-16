@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgPulse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#141c2e"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgPulse)"/>
+  
+  <!-- Subtle Grid lines -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="300" y1="0" x2="300" y2="675"/>
+    <line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
+  </g>
+
+  <!-- Browser Window Mockup -->
+  <rect x="60" y="40" width="1080" height="595" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Browser Header Bar -->
+  <rect x="60" y="40" width="1080" height="44" rx="12" fill="#1e293b"/>
+  <circle cx="90" cy="62" r="6" fill="#ef4444"/>
+  <circle cx="110" cy="62" r="6" fill="#f59e0b"/>
+  <circle cx="130" cy="62" r="6" fill="#10b981"/>
+  
+  <!-- URL Bar -->
+  <rect x="180" y="50" width="600" height="24" rx="6" fill="#0f172a"/>
+  <text x="200" y="67" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">https://pulse.etm.click/movies/inside-christopher-nolan-next-sci-fi-epic</text>
+  
+  <!-- Status Badge -->
+  <rect x="940" y="50" width="180" height="24" rx="6" fill="#134e4a"/>
+  <text x="960" y="67" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" fill="#2dd4bf">● ZERO CLS VERIFIED</text>
+
+  <!-- Website Top Nav -->
+  <rect x="60" y="84" width="1080" height="60" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+  <text x="90" y="122" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" fill="#ffffff" letter-spacing="1.5">PULSE <tspan fill="#06b6d4">ENTERTAINMENT</tspan></text>
+  
+  <text x="460" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f8fafc">MOVIES</text>
+  <text x="540" y="120" font-family="sans-serif" font-size="13" fill="#94a3b8">TV SHOWS</text>
+  <text x="640" y="120" font-family="sans-serif" font-size="13" fill="#94a3b8">CELEBRITIES</text>
+  <text x="760" y="120" font-family="sans-serif" font-size="13" fill="#94a3b8">GAMING</text>
+  
+  <rect x="970" y="98" width="140" height="32" rx="6" fill="#2563eb"/>
+  <text x="990" y="119" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Sign in with Google</text>
+
+  <!-- Hero Content Area -->
+  <g transform="translate(90, 165)">
+    <!-- Main Article Banner (Left 650px) -->
+    <rect x="0" y="0" width="650" height="350" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <!-- Simulated Film Visual -->
+    <rect x="0" y="0" width="650" height="220" rx="8" fill="#0f172a"/>
+    <path d="M 0,160 Q 325,100 650,180 L 650,220 L 0,220 Z" fill="#1e293b" opacity="0.6"/>
+    
+    <rect x="24" y="24" width="80" height="24" rx="4" fill="url(#redAccent)"/>
+    <text x="36" y="40" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">SPOTLIGHT</text>
+
+    <text x="24" y="258" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Inside Christopher Nolan's Next Sci-Fi Epic Project</text>
+    <text x="24" y="285" font-family="sans-serif" font-size="13" fill="#94a3b8">Exclusive report on the production, casting developments, and IMAX 70mm specifications...</text>
+    <text x="24" y="325" font-family="sans-serif" font-size="12" fill="#06b6d4">By Entertainment Desk • 4 min read • Updated today</text>
+    
+    <!-- Sidebar Leaderboard (Right 330px) -->
+    <g transform="translate(680, 0)">
+      <!-- Verified AdSense Slot zero CLS -->
+      <rect x="0" y="0" width="340" height="180" rx="8" fill="#111827" stroke="#374151" stroke-width="1" stroke-dasharray="4 4"/>
+      <text x="100" y="85" font-family="sans-serif" font-size="12" fill="#6b7280" font-weight="bold">ADSENSE BANNER (300x250)</text>
+      <text x="120" y="105" font-family="sans-serif" font-size="11" fill="#10b981">Fixed Layout Zero-CLS</text>
+
+      <!-- Trending Section -->
+      <rect x="0" y="200" width="340" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="20" y="230" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">🔥 Trending Stories</text>
+      <line x1="20" y1="245" x2="320" y2="245" stroke="#334155" stroke-width="1"/>
+      <text x="20" y="270" font-family="sans-serif" font-size="12" fill="#cbd5e1">1. HBO's The Last of Us Season 2 Premiere</text>
+      <text x="20" y="300" font-family="sans-serif" font-size="12" fill="#cbd5e1">2. Marvel Phase 6 Full Release Schedule</text>
+      <text x="20" y="330" font-family="sans-serif" font-size="12" fill="#cbd5e1">3. GTA VI Second Trailer Breakdown</text>
+    </g>
+  </g>
+
+  <!-- Bottom Spec Chips -->
+  <g transform="translate(90, 545)">
+    <rect x="0" y="0" width="220" height="60" rx="6" fill="#1e293b"/>
+    <text x="16" y="26" font-family="sans-serif" font-size="11" fill="#94a3b8">ENGINE</text>
+    <text x="16" y="48" font-family="sans-serif" font-size="14" font-weight="bold" fill="#2dd4bf">Next.js 14 App Router</text>
+
+    <rect x="240" y="0" width="240" height="60" rx="6" fill="#1e293b"/>
+    <text x="16" y="26" font-family="sans-serif" font-size="11" fill="#94a3b8">SCHEMA ARCHITECTURE</text>
+    <text x="16" y="48" font-family="sans-serif" font-size="14" font-weight="bold" fill="#38bdf8">JSON-LD NewsArticle</text>
+
+    <rect x="500" y="0" width="230" height="60" rx="6" fill="#1e293b"/>
+    <text x="16" y="26" font-family="sans-serif" font-size="11" fill="#94a3b8">LEGAL &amp; COMPLIANCE</text>
+    <text x="16" y="48" font-family="sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">CCPA • COPPA • DMCA</text>
+
+    <rect x="750" y="0" width="270" height="60" rx="6" fill="#1e293b"/>
+    <text x="16" y="26" font-family="sans-serif" font-size="11" fill="#94a3b8">USER EXPERIENCE</text>
+    <text x="16" y="48" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f43f5e">Guest Read + Google OAuth</text>
+  </g>
+</svg>

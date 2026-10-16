@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/cache
+
+# next.js build
+/.next/
+/out/
+/build
+
+# env and security keys (CRITICAL)
+.env
+.env*.local
+*.pem
+hieutruong-*.json
+*.private.json
+
+# misc & OS
+.DS_Store
+Thumbs.db
+*.log
+
+# vercel
+.vercel
