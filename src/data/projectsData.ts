@@ -10,34 +10,26 @@ export const projectsData: Project[] = [
     category: 'woodwork-interior',
     categoryLabel: 'Landing Page Nội Thất',
     badge: 'Dự án tiêu biểu',
-    isRealProject: false,
-    statusLabel: 'Mẫu thiết kế cao cấp cho ngành nội thất',
+    isRealProject: true,
+    statusLabel: 'Dự án thực tế',
     shortDescription:
       'Giao diện tối giản phong cách Bắc Âu, tôn trọn vẻ đẹp không gian sống và vật liệu gỗ tự nhiên qua hình ảnh độ phân giải cao.',
     targetAudience:
       'Khách hàng gia đình trẻ, chủ căn hộ cao cấp và biệt thự cần tìm đơn vị tư vấn thiết kế thi công nội thất tinh tế.',
     keyHighlight:
-      'Thiết kế tỷ lệ vàng chuẩn thẩm mỹ, ảnh dự án phóng to sắc nét, biểu mẫu gửi mặt bằng khảo sát trực tiếp.',
-    coverImage: '/projects/banner-interior.jpg',
+      'Thiết kế tỷ lệ vàng chuẩn thẩm mỹ, ảnh dự án sắc nét, biểu mẫu gửi mặt bằng khảo sát trực tiếp.',
+    coverImage: '/projects/banner-interior.png',
     gallery: [
       {
-        url: '/projects/banner-interior.jpg',
-        caption: 'Giao diện trang chủ hiển thị trên màn hình máy tính với bố cục sang trọng, tinh tế',
+        url: '/projects/banner-interior.png',
+        caption: 'Giao diện trang chủ An Nhiên Interior với bố cục sang trọng, tinh tế',
         isCover: true,
-      },
-      {
-        url: '/projects/interior-cover.svg',
-        caption: 'Bố cục chi tiết bộ sưu tập phòng khách, phòng ngủ và vật liệu gỗ tự nhiên',
-      },
-      {
-        url: '/projects/woodwork-cover.svg',
-        caption: 'Khu vực trưng bày năng lực xưởng may đo nội thất trực tiếp',
       },
     ],
     purpose:
       'Khẳng định gu thẩm mỹ tinh tế, tạo ấn tượng tin cậy ngay từ giây đầu tiên và thúc đẩy khách hàng gửi thông tin tư vấn.',
     problemSolved:
-      'Nhiều website nội thất nhồi nhét quá nhiều chữ và hình ảnh kích thước nhỏ. An Nhiên Interior khắc phục bằng bố cục thoáng đãng, hình ảnh kích thước lớn và nút đặt lịch khảo sát nổi bật.',
+      'Khắc phục tình trạng website rườm rà bằng bố cục thoáng đãng, hình ảnh kích thước lớn và nút đặt lịch khảo sát nổi bật.',
     coreFeatures: [
       {
         title: 'Bộ sưu tập công trình sắc nét',
@@ -49,7 +41,7 @@ export const projectsData: Project[] = [
       },
       {
         title: 'Đăng ký khảo sát tận nơi',
-        description: 'Form đăng ký nhận tư vấn bản vẽ 2D/3D chuyển thẳng về Google Sheets và thông báo qua Zalo.',
+        description: 'Form đăng ký nhận tư vấn bản vẽ chuyển thẳng về Google Sheets và thông báo qua Zalo.',
       },
       {
         title: 'Tối ưu tốc độ tải ảnh lớn',
@@ -294,106 +286,7 @@ export const projectsData: Project[] = [
     ],
   },
 
-  // 4. Xưởng Mộc & Sản Xuất Nội Thất
-  {
-    id: 'moc-gia-phat',
-    slug: 'moc-gia-phat',
-    title: 'Mộc Gia Phát — Xưởng Sản Xuất Nội Thất Gỗ Tự Nhiên & Công Nghiệp',
-    clientType: 'Xưởng Chế Tác Mộc & Sản Xuất Đồ Gỗ May Đo',
-    category: 'woodwork-interior',
-    categoryLabel: 'Website Xưởng Mộc',
-    badge: 'Thế mạnh xưởng mộc',
-    isRealProject: false,
-    statusLabel: 'Mẫu thiết kế chuyên ngành mộc & nội thất',
-    shortDescription:
-      'Website chuyên sâu cho xưởng mộc: làm nổi bật chất gỗ tự nhiên, hình ảnh xưởng sản xuất 1.500m2 và tiếp nhận yêu cầu báo giá theo mét vuông.',
-    targetAudience:
-      'Gia chủ đang làm nhà cần tìm xưởng gỗ trực tiếp, kiến trúc sư cần xưởng gia công uy tín không qua trung gian.',
-    keyHighlight:
-      'Trực quan hóa năng lực xưởng mộc, bảng tra cứu mẫu gỗ (Gõ đỏ, Óc chó, Sồi, MDF An Cường), form gửi bản vẽ.',
-    coverImage: '/projects/banner-interior-wood.svg',
-    gallery: [
-      {
-        url: '/projects/banner-interior-wood.svg',
-        caption: 'Giao diện trang chủ với gam màu gỗ ấm cúng và các chứng nhận chất lượng gỗ',
-        isCover: true,
-      },
-      {
-        url: '/projects/interior-cover.svg',
-        caption: 'Khu vực trưng bày các công trình tủ bếp, bàn ghế, cửa gỗ đã lắp đặt thực tế',
-      },
-    ],
-    purpose:
-      'Giúp xưởng mộc khẳng định quy mô sản xuất thực tế, giải quyết nỗi lo về gỗ giả của khách hàng và thu hút khách liên hệ báo giá.',
-    problemSolved:
-      'Khách hàng thường lo ngại xưởng ảo hoặc làm qua trung gian nâng giá. Website chứng minh năng lực qua video xưởng, ảnh máy móc và bảng giá minh bạch.',
-    coreFeatures: [
-      {
-        title: 'Tra cứu mẫu vân gỗ',
-        description: 'Hình ảnh phóng to vân gỗ tự nhiên và bảng mã màu melamine chống ẩm.',
-      },
-      {
-        title: 'Công cụ tính dự toán sơ bộ',
-        description: 'Khách chọn loại gỗ và diện tích để ước lượng chi phí ban đầu.',
-      },
-      {
-        title: 'Gửi bản vẽ nhận báo giá',
-        description: 'Biểu mẫu cho phép đính kèm ảnh hoặc bản vẽ thiết kế nhận báo giá trong 24h.',
-      },
-      {
-        title: 'Đồng bộ Google Sheets & Zalo',
-        description: 'Thông báo đơn hàng mộc mới chuyển ngay vào file quản lý của xưởng.',
-      },
-    ],
-    myWork: [
-      'Thiết kế giao diện phong cách mộc mạc, sang trọng với tông màu nâu gỗ ấm.',
-      'Xây dựng danh mục sản phẩm đồ mộc theo từng không gian (Phòng khách, bếp, ngủ).',
-      'Tích hợp form gửi yêu cầu báo giá trực tiếp vào Google Sheets.',
-    ],
-    technologies: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Google Sheets API'],
-    siteMapTree: [
-      {
-        name: 'Trang chủ Mộc Gia Phát',
-        description: 'Cam kết nguồn gốc gỗ, Năng lực xưởng 1.500m2, Sản phẩm nổi bật',
-        children: [
-          {
-            name: 'Danh mục sản phẩm gỗ',
-            description: 'Tủ bếp Acrylic/Gỗ tự nhiên, Bàn ăn nguyên tấm, Cửa gỗ',
-          },
-          {
-            name: 'Hình ảnh xưởng & Máy móc',
-            description: 'Dàn máy cưa mộng CNC, buồng phun sơn PU không bụi',
-          },
-          {
-            name: 'Nhận báo giá mộc',
-            description: 'Form điền kích thước và chủng loại gỗ mong muốn',
-          },
-        ],
-      },
-    ],
-    userFlow: [
-      {
-        stepNumber: 1,
-        action: 'Khách vào xem ảnh sản phẩm tủ và xưởng sản xuất',
-        screen: 'Trang chủ & Mục Hình ảnh xưởng',
-        outcome: 'Tin tưởng vào năng lực sản xuất trực tiếp của xưởng',
-      },
-      {
-        stepNumber: 2,
-        action: 'Bấm nút Nhận báo giá mộc',
-        screen: 'Form báo giá',
-        outcome: 'Điền số điện thoại và loại gỗ cần gia công',
-      },
-      {
-        stepNumber: 3,
-        action: 'Bấm gửi thông tin',
-        screen: 'Màn hình cảm ơn',
-        outcome: 'Xưởng nhận được thông tin trên Google Sheets và gọi lại tư vấn',
-      },
-    ],
-  },
-
-  // 5. Website Bán Hàng & Nông Sản
+  // 4. Website Bán Hàng & Nông Sản
   {
     id: 'fresh-organic-store',
     slug: 'fresh-organic-store',
@@ -402,19 +295,19 @@ export const projectsData: Project[] = [
     category: 'ecommerce',
     categoryLabel: 'Website Bán Hàng',
     badge: 'Thương mại điện tử',
-    isRealProject: false,
-    statusLabel: 'Mẫu website bán hàng tối ưu chuyển đổi',
+    isRealProject: true,
+    statusLabel: 'Dự án thực tế',
     shortDescription:
       'Giao diện cửa hàng tươi mới, danh mục sản phẩm phân chia khoa học, khách chọn mua và đặt hàng nhanh qua Zalo không cần tài khoản.',
     targetAudience:
       'Người tiêu dùng quan tâm thực phẩm sạch, shop bán lẻ cần kênh đặt hàng nhanh và tiện lợi.',
     keyHighlight:
       'Đặt hàng nhanh không cần mật khẩu rườm rà, giao diện tươi sáng tạo cảm giác an tâm, tải nhanh dưới 1.5 giây.',
-    coverImage: '/projects/banner-organic-food.svg',
+    coverImage: '/projects/banner-organic.png',
     gallery: [
       {
-        url: '/projects/banner-organic-food.svg',
-        caption: 'Giao diện trang chủ hiển thị giỏ hàng nhanh và các chương trình khuyến mãi trong ngày',
+        url: '/projects/banner-organic.png',
+        caption: 'Giao diện trang chủ Fresh Organic Store hiển thị giỏ hàng nhanh và danh mục sản phẩm tươi sạch',
         isCover: true,
       },
     ],
@@ -480,7 +373,7 @@ export const projectsData: Project[] = [
     ],
   },
 
-  // 6. Website Doanh Nghiệp Chuẩn Nhận Diện
+  // 5. Website Doanh Nghiệp Chuẩn Nhận Diện
   {
     id: 'viet-eco-corporate',
     slug: 'viet-eco-corporate',
@@ -489,19 +382,19 @@ export const projectsData: Project[] = [
     category: 'business',
     categoryLabel: 'Website Doanh Nghiệp',
     badge: 'Doanh nghiệp uy tín',
-    isRealProject: false,
-    statusLabel: 'Mẫu website giới thiệu doanh nghiệp hiện đại',
+    isRealProject: true,
+    statusLabel: 'Dự án thực tế',
     shortDescription:
       'Giao diện tinh gọn, lịch thiệp, thể hiện hồ sơ năng lực, đội ngũ chuyên gia và các dự án điện mặt trời, năng lượng tái tạo quy mô lớn.',
     targetAudience:
       'Đối tác dự án, khách hàng doanh nghiệp và các quỹ đầu tư tìm hiểu về quy mô công ty.',
     keyHighlight:
       'Bố cục chuyên nghiệp chuẩn phong cách quốc tế, tải trang siêu tốc, bảo mật cao.',
-    coverImage: '/projects/banner-green-energy.svg',
+    coverImage: '/projects/banner-vieteco.png',
     gallery: [
       {
-        url: '/projects/banner-green-energy.svg',
-        caption: 'Giao diện trang chủ doanh nghiệp với khối năng lực và số liệu ấn tượng',
+        url: '/projects/banner-vieteco.png',
+        caption: 'Giao diện trang chủ Việt Eco Energy với khối năng lực và số liệu ấn tượng',
         isCover: true,
       },
     ],
@@ -571,7 +464,7 @@ export const projectsData: Project[] = [
     ],
   },
 
-  // 7. Báo Điện Tử & Tạp Chí Số
+  // 6. Báo Điện Tử & Tạp Chí Số
   {
     id: 'pulse-entertainment',
     slug: 'pulse-entertainment',
@@ -588,16 +481,12 @@ export const projectsData: Project[] = [
       'Độc giả yêu thích phim ảnh, âm nhạc và tin tức giải trí; nhà sáng tạo nội dung cần lượng truy cập tự nhiên lớn.',
     keyHighlight:
       'Tối ưu tuyệt đối không giật layout (Zero CLS) khi tải quảng cáo, đầy đủ 5 trang pháp lý quốc tế.',
-    coverImage: '/projects/banner-news.svg',
+    coverImage: '/projects/banner-news.png',
     gallery: [
       {
-        url: '/projects/banner-news.svg',
-        caption: 'Giao diện trang chủ dạng tạp chí số với tiêu điểm nổi bật và danh mục tin nóng',
+        url: '/projects/banner-news.png',
+        caption: 'Giao diện trang chủ tạp chí số PULSE Magazine với tiêu điểm nổi bật và danh mục tin nóng',
         isCover: true,
-      },
-      {
-        url: '/projects/pulse-seo.svg',
-        caption: 'Cấu trúc đường dẫn tinh gọn, sơ đồ sitemap tự động và chuẩn dữ liệu tin tức Google',
       },
     ],
     purpose:
